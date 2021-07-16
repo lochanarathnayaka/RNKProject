@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcba03"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/close"
+        tools:ignore="VectorDrawableCompat" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#ffffff"
+        android:drawableLeft="@drawable/cars"
+        android:drawablePadding="50px"
+        android:hint="Vehicle No"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#99FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/btnClose"
+        tools:layout_editor_absoluteX="11dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#ffffff"
+        android:drawableLeft="@drawable/whitehome"
+        android:drawablePadding="50px"
+        android:hint="Address"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#99FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#ffffff"
+        android:drawableLeft="@drawable/whitphone"
+        android:drawablePadding="50px"
+        android:hint="Contact No"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#99FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#ffffff"
+        android:drawableLeft="@drawable/date"
+        android:drawablePadding="50px"
+        android:hint="Start Date"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#99FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#ffffff"
+        android:drawableLeft="@drawable/date"
+        android:drawablePadding="50px"
+        android:hint="End Date"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#99FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/editText4"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#ffffff"
+        android:drawableLeft="@drawable/date"
+        android:drawablePadding="50px"
+        android:hint="Assigned Date"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#99FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/editText5"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#ffffff"
+        android:drawableLeft="@drawable/money"
+        android:drawablePadding="50px"
+        android:hint="Salary (Full Amt)"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#99FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/editText6"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#ffffff"
+        android:drawableLeft="@drawable/money"
+        android:drawablePadding="50px"
+        android:hint="Salary (Paid Amt)"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#99FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/editText7"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/roundwhitebtn"
+        android:text="ADD"
+        android:textColor="#C4000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
