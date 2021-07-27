@@ -17,7 +17,7 @@
         tools:ignore="VectorDrawableCompat" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editText"
+        android:id="@+id/txtSite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -33,7 +33,7 @@
         tools:layout_editor_absoluteX="11dp" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editText2"
+        android:id="@+id/txtAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -45,11 +45,11 @@
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#99FFFFFF"
         android:textColorLink="#FFFFFF"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/txtSite"
         tools:layout_editor_absoluteX="0dp" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editText3"
+        android:id="@+id/txtContactNo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -61,11 +61,11 @@
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#99FFFFFF"
         android:textColorLink="#FFFFFF"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/txtAddress"
         tools:layout_editor_absoluteX="0dp" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editText4"
+        android:id="@+id/txtStartDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -77,11 +77,11 @@
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#99FFFFFF"
         android:textColorLink="#FFFFFF"
-        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/txtContactNo"
         tools:layout_editor_absoluteX="0dp" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editText5"
+        android:id="@+id/txtEndDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -93,11 +93,11 @@
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#99FFFFFF"
         android:textColorLink="#FFFFFF"
-        app:layout_constraintTop_toBottomOf="@+id/editText4"
+        app:layout_constraintTop_toBottomOf="@+id/txtStartDate"
         tools:layout_editor_absoluteX="0dp" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editText6"
+        android:id="@+id/txtAssignedDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -109,11 +109,11 @@
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#99FFFFFF"
         android:textColorLink="#FFFFFF"
-        app:layout_constraintTop_toBottomOf="@+id/editText5"
+        app:layout_constraintTop_toBottomOf="@+id/txtEndDate"
         tools:layout_editor_absoluteX="0dp" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editText7"
+        android:id="@+id/txtAmt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -125,7 +125,7 @@
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#99FFFFFF"
         android:textColorLink="#FFFFFF"
-        app:layout_constraintTop_toBottomOf="@+id/editText6"
+        app:layout_constraintTop_toBottomOf="@+id/txtAssignedDate"
         tools:layout_editor_absoluteX="0dp" />
 
     <com.google.android.material.textfield.TextInputEditText
@@ -141,12 +141,12 @@
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#99FFFFFF"
         android:textColorLink="#FFFFFF"
-        app:layout_constraintTop_toBottomOf="@+id/editText7"
+        app:layout_constraintTop_toBottomOf="@+id/txtAmt"
         tools:layout_editor_absoluteX="0dp" />
 
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnAdd"
         android:layout_width="340dp"
         android:layout_height="40dp"
         android:layout_marginBottom="16dp"

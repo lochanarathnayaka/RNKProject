@@ -4,4 +4,10 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="invalidate_name">Please enter a site Name</string>
+    <string name="invalidate_address">Please enter a address.</string>
+    <string name="invalidate_contactno">Please enter a Contact No.</string>
+    <string name="invalidate_amt">Amount should be numbers only</string>
+    <string name="null_startate">Please enter a Start Date.</string>
+    <string name="null_endDate">Please enter a End Date.</string>
 </resources>
